@@ -16,3 +16,7 @@ def education():
 @app.route("/work_history")
 def work_history():
       return render_template("work_history.html", title = "Work History!")
+
+@app.route("/interests")
+def interests():
+      return render_template("interests.html", title = "Interests")

@@ -1,0 +1,85 @@
+body {
+    background-color: #2c3e50;
+    color: #ecf0f1;
+    font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+    background-color: #34495e;
+}
+
+.navbar-brand, .nav-link {
+    color: #ecf0f1;
+}
+
+.nav-link:hover {
+    color: #bdc3c7;
+}
+
+.center-content h2 {
+    padding-top: 20px; /* adjust as needed */
+}
+
+.center-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.center-content ul {
+    list-style-position: inside;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 50px;
+    font-size: 5em; 
+    font-family: 'Lucida Console', monospace ; 
+    color: #ffffff; /* Added */
+}
+
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.navbar .nav-link {
+    color: black;
+}
+
+.navbar .navbar-brand {
+    color: black;
+}
+
+.title-block {
+    background-image: url('static/bishop-chess-piece-outline.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 400px; /* adjust as needed */
+}
+
+.title-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* semi-transparent white */
+    border: 10px solid #000; /* black border */
+    text-align: center;
+}
+
+.title-box h1 {
+    margin: 0;
+    color: #000;
+.title-block {
+    background-color: #808080; /* grey background */
+    border: 2px solid #000; /* black border */
+    border-radius: 10px; /* rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* shadow effect */
+    /* remaining styles */
+}
